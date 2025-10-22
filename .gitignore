@@ -1,5 +1,101 @@
-# Object file
-*.o
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Ada Library Information
-*.ali
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Environment / secrets
+.env
+.env.* 
+secret.env
+*.secret
+*.key
+*.pem
+*.p12
+*.crt
+
+# Database / local storage
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Ruby / Bundler / Gems
+/vendor/
+/.bundle/
+/Gemfile.lock
+*.gem
+
+# Node / JS (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+
+# Python / venv
+venv/
+__pycache__/
+*.pyc
+
+# Build / binary artifacts
+build/
+dist/
+*.o
+*.so
+*.exe
+*.dll
+
+# VM images / VirtualBox / QEMU / Vagrant
+*.vmdk
+*.vdi
+*.vbox
+*.ova
+*.qcow2
+.vagrant/
+.vagrant.d/
+
+# Large binaries (use Git LFS or encrypt)
+*.iso
+*.img
+*.bin
+
+# Metasploit / msf related (sensitive outputs)
+.msftmp
+.msflogs
+msf4/               # often stores loot, logs, creds — ignore unless intentionally tracked
+.msfrc
+loot/
+
+# Git-crypt / encryption artifacts (if used)
+*.tar.gpg
+*.gpg
+
+# Git LFS attribute file
+.gitattributes
+
+# OS-specific swap / temp files
+*~
+*.swp
+*.swo
+
+# Backup / exported files
+*.bak
+*.old
+
+# Custom - exclude any plaintext exploit folder (keep encrypted instead)
+exploits/
+vm-images/
+tools/
