@@ -28,3 +28,8 @@ cd metasploit-toolkit
 chmod +x install_msf.sh run_msfconsole.sh
 sudo ./install_msf.sh
 ./run_msfconsole.sh
+
+## License
+Copyright 2025 MJ  
+Licensed under the Apache License 2.0 — see [LICENSE](./LICENSE) for details.
+
